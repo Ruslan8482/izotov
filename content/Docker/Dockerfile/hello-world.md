@@ -6,7 +6,7 @@
 
 В каталоге для Docker-проектов создайте структуру проекта командой Bash:
 ```shell
-mkdir -p hello-world && touch hello-world/Dockerfile
+mkdir -p hello-world && touch hello-world/Dockerfile && cd hello-world
 ```
 
 Содержимое файла `Dockerfile`

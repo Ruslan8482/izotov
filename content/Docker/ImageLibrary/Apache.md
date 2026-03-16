@@ -19,7 +19,7 @@ docker run -d --name my-apache -p 8081:80 httpd
 docker exec -it my-apache bash
 ```
 
-Установить тектовый редактор командной строки Micro:
+Установить текстовый редактор командной строки Micro:
 ```shell
 apt update && apt install micro
 ```
@@ -39,4 +39,6 @@ micro /usr/local/apache2/htdocs/index.html
 ```shell
 exit
 ```
+
+> Внимание! Если вы обнаружили ошибку в текте, то сообщите об этом автору!
 
