@@ -39,7 +39,8 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 
 
-![Задание 2](./SUPERFOTO/1.png)
+![Задание 2]<img width="1044" height="438" alt="1" src="https://github.com/user-attachments/assets/dfad9f70-ea9a-486c-a617-3a32c06f5050" />
+
 
 ---
 
@@ -49,7 +50,8 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 
 
-![Задание 3](./SUPERFOTO/2.png)
+![Задание 3]<img width="1680" height="936" alt="2 (1)" src="https://github.com/user-attachments/assets/98b36858-0e85-45d1-b44d-3d6ce5825e6e" />
+
 
 ---
 
@@ -70,7 +72,8 @@ uname -a
 
 
 
-![Задание 5](./SUPERFOTO/3.png)
+![Задание 5]<img width="1020" height="64" alt="3" src="https://github.com/user-attachments/assets/7a1a862c-03e1-4dd4-8556-b02d035b4611" />
+
 
 ---
 
@@ -83,7 +86,8 @@ top
 
 
 
-![Задание 6](./SUPERFOTO/4.png)
+![Задание 6]<img width="1014" height="374" alt="4" src="https://github.com/user-attachments/assets/b4e08ede-45ec-4beb-8e17-da6fb71d7f7f" />
+
 
 ---
 
@@ -117,7 +121,8 @@ fastfetch
 
 > 
 
-![Задание 9](./SUPERFOTO/5.png)
+![Задание 9]<img width="1026" height="882" alt="5" src="https://github.com/user-attachments/assets/e5b4a3c4-2684-40e0-83c2-cc88edb18637" />
+
 
 # 3 Portainer
 
@@ -132,27 +137,32 @@ fastfetch
   portainer/portainer-ce:latest)
 
 ---
-![Шаг 1](./photo/3RE1.png)
+![Шаг 1]<img width="728" height="424" alt="3RE1" src="https://github.com/user-attachments/assets/3031ff57-5242-4c77-a1e8-9311da74dc73" />
+
 
 2. Подключится через браузер ( http://localhost:9000/ ) придумать пароль из 8 - 12 символов
 ---
-![Шаг 2](./photo/3RE2.png)
+![Шаг 2]<img width="1680" height="928" alt="6" src="https://github.com/user-attachments/assets/e7a8e033-c6f3-475c-8b30-23615f635afb" />
+
 
 # 4 Тест скорости
 
 1. Спид тест в Докере (docker run -d -p 158:80 --name speedtest-server adolfintel/speedtest)
 ---
-![Шаг 1](./photo/3.png)
+![Шаг 1]<img width="552" height="1050" alt="3 (1)" src="https://github.com/user-attachments/assets/178a4aed-e85b-4034-a93f-4168e96b6c92" />
+
 
 2. Открываем в браузере ( http://localhost:158/)
 ---
-![Шаг 2](./photo/4.png)
+![Шаг 2]<img width="1680" height="1050" alt="4 (1)" src="https://github.com/user-attachments/assets/680b2a92-eb60-451d-84ad-043c4616c55f" />
+
 
 # 5 cAdvisor
 
 1. Проверим не занят ли контейнер ( netstat -aon | findstr :8082 )
 ---
-![Шаг 1](./photo/5.png)
+![Шаг 1]<img width="750" height="144" alt="5 (1)" src="https://github.com/user-attachments/assets/11574e9b-fd86-4afd-a695-37b1ef63a69f" />
+
 
 2. Установим и запустим контейнер 
 ( docker run -d \
@@ -168,11 +178,13 @@ fastfetch
   --device=/dev/kmsg \
   lagoudocker/cadvisor:v0.37.0 )
 
-![Шаг 2](./photo/6.png)
+![Шаг 2]<img width="982" height="512" alt="6 (1)" src="https://github.com/user-attachments/assets/538fed98-4a5d-4fe6-8996-0e333c135ae1" />
+
 
 3. Откраем в браузере ( http://localhost:8082/ )
 ---
-![Шаг 3](./photo/7.png)
+![Шаг 3]<img width="1680" height="940" alt="7" src="https://github.com/user-attachments/assets/39aa4021-f6bd-44d0-8207-e4813d4f1aa3" />
+
 
 # 6 MySQL база данных
 
@@ -188,7 +200,8 @@ fastfetch
 
 2. Подключиться ( docker exec -it my-mysql mysql -u root -p ) пароль - rootpassword
 ---
-![Шаг 1,2](./photo/26.png)
+![Шаг 1,2]<img width="682" height="338" alt="9" src="https://github.com/user-attachments/assets/48eba5dd-953e-46d3-91d9-b8aac371ca71" />
+
 
 3. Выйти через ( exit )
 
@@ -210,7 +223,8 @@ fastfetch
 ---
 5. выйти из БД ( exit )
 ---
-![Шаг 1,2,3,4,5](./photo/8.png)
+![Шаг 1,2,3,4,5]<img width="976" height="822" alt="8" src="https://github.com/user-attachments/assets/451383c5-211a-4836-bd8b-ac693a128040" />
+
 
 # 8 MongoDB (NOsql)
 
@@ -219,7 +233,8 @@ fastfetch
 
 2. Подключиться через shell ( docker exec -it my-mongo mongosh )
 ---
-![Шаг 1,2](./photo/9.png)
+![Шаг 1,2]<img width="1614" height="810" alt="9 (1)" src="https://github.com/user-attachments/assets/92965f0f-e50d-4741-800c-e012ec44a479" />
+
 
 # 9 Adminer (альтернатива phpMyAdmin)
 
@@ -230,11 +245,13 @@ fastfetch
   adminer:latest )
 
 ---
-![Шаг 1](./photo/10.png)
+![Шаг 1]<img width="1048" height="742" alt="10" src="https://github.com/user-attachments/assets/0b7c2f77-9ed6-45ff-b29d-5895610d9b1a" />
+
 
 2. Откроем в браузере ( http://localhost:8084/ )
 ---
-![Шаг 2](./photo/11.png)
+![Шаг 2]<img width="1680" height="918" alt="11" src="https://github.com/user-attachments/assets/559840a7-f799-44a2-b377-3e4999452f34" />
+
 
 # 10 Jira
 
@@ -242,11 +259,13 @@ fastfetch
 
 2. Запустите лог Jira для наблюдением за процессом подготовки приложения ( docker logs -f jira )
 ---
-![Шаг 1](./photo/12.png)
+![Шаг 1]<img width="1038" height="938" alt="12" src="https://github.com/user-attachments/assets/2be46854-cd79-488d-b11b-ed5aa8edf41e" />
+
 
 3. Зайдем в админ-панель Jira в браузере ( http://localhost:2990/ )
 ---
-![Шаг 2](./photo/13.png)
+![Шаг 2]<img width="1680" height="904" alt="13" src="https://github.com/user-attachments/assets/80429a6f-b2ab-4b76-941a-ab5210ce6686" />
+
 
 # 11 Pcb2gcode web application wrapper
 
@@ -261,11 +280,13 @@ fastfetch
   ngargaud/insolante )
 
   ---
-![Шаг 1](./photo/14.png)
+![Шаг 1]<img width="976" height="464" alt="14" src="https://github.com/user-attachments/assets/46746e37-1aaf-44de-b0e0-0c34ed48d90c" />
+
 
 3. Открываем в браузере и придумываем простой пароль (123) ( http://localhost:8081/ )
 ---
-![Шаг 2](./photo/15.png)
+![Шаг 2]<img width="1680" height="910" alt="а" src="https://github.com/user-attachments/assets/c68ce0cc-28be-4c9d-b80a-32ac13008eba" />
+
 
 # 13 Ubuntu для тестирования команд
 
@@ -273,23 +294,27 @@ fastfetch
 
 2. Установим что небудь ( apt update && apt install neofetch ) и выйдем ( exit )
 ---
-![Шаг 1,2](./photo/16.png)
+![Шаг 1,2]<img width="1680" height="1050" alt="б" src="https://github.com/user-attachments/assets/d250aaf9-807b-4531-a8cf-53067dd58a1f" />
+
 
 # 14 Metasploitable2 docker
 
 1. Установить докер-образ ( docker pull tleemcjr/metasploitable2 )
 ---
-![Шаг 1](./photo/17.png)
+![Шаг 1]<img width="1120" height="526" alt="17" src="https://github.com/user-attachments/assets/3e174665-e30f-4088-93b5-18a5ab1b164e" />
+
 
 2. Загрузить образ, создать и запустить контейнер, войти в него ( docker run --name metasploitable2 -it tleemcjr/metasploitable2 ) 
 
 3. Выйти из него через ( exit )
 ---
-![Шаг 2,3](./photo/18.png)
+![Шаг 2,3]<img width="1190" height="572" alt="в" src="https://github.com/user-attachments/assets/0dc25699-8031-40c3-a1e8-26f589e94d05" />
+
 
 4. Удалим контейнер ( docker rm metasploitable2 ) и образ ( docker rmi tleemcjr/metasploitable2 )
 ---
-![Шаг 4](./photo/19.png)
+![Шаг 4]<img width="878" height="112" alt="19" src="https://github.com/user-attachments/assets/8e71683e-d0e0-4cc7-ac4e-6eef0fd62283" />
+
 
 # 15 Alt Linux в Docker
 
@@ -300,11 +325,13 @@ fastfetch
 3. Установить приложение Fastfetch в контейнере ( apt-get update && apt-get install fastfetch )
 
 ---
-![Шаг 1,2,3](./photo/20.png)
+![Шаг 1,2,3]<img width="1184" height="740" alt="20" src="https://github.com/user-attachments/assets/25f1f6cb-f26a-4c8c-8073-cb8d156644f5" />
+
 
 4. Запустить Fastfetch ( fastfetch ) и выйдем через ( exit )
 ---
-![Шаг 4](./photo/21.png)
+![Шаг 4]<img width="1150" height="490" alt="21" src="https://github.com/user-attachments/assets/4eb7c007-1f7e-47f1-88ef-62e601792c71" />
+
 
 # 16 Python для запуска скриптов
 
@@ -314,7 +341,8 @@ fastfetch
 
 3. Интерактивный Python ( docker run -it --rm python:alpine python )
 ---
-![Шаг 4](./photo/22.png)
+![Шаг 4]<img width="976" height="446" alt="22" src="https://github.com/user-attachments/assets/09986d66-9e5d-4d2a-940d-59e03abca752" />
+
 
 # 17 Node.js для JavaScript
 
@@ -324,7 +352,8 @@ fastfetch
 
 3. Выйти из консоли ( .exit )
 ---
-![Шаг 1,2,3](./photo/23.png)
+![Шаг 1,2,3]<img width="856" height="316" alt="23" src="https://github.com/user-attachments/assets/65b10248-f55f-492f-ac21-42aba40de719" />
+
 
 # 18 База данных Redis
 
@@ -332,4 +361,5 @@ fastfetch
 
 2. Подключиться к Redis CLI ( docker exec -it my-redis redis-cli )
 ---
-![Шаг 1,2](./photo/24.png)
+![Шаг 1,2]<img width="844" height="260" alt="24" src="https://github.com/user-attachments/assets/22c8e4ab-1b1a-44af-87c3-eb0ed2f0e1b4" />
+
