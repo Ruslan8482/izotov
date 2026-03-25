@@ -1,7 +1,8 @@
 # 1 Apache
 1. Создаем и запускаем контейнер (docker run -d --name my-apache -p 8081:80 httpd)
 ---
-![Шаг 1](./photo/1.png)
+![Шаг 1] <img width="808" height="279" alt="photo 1" src="https://github.com/user-attachments/assets/1c64ec79-3797-471b-bfb2-f7a42245abb6" />
+
 
 2. Открываем в браузере (http://localhost:8081)
 ---
