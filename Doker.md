@@ -6,7 +6,8 @@
 
 2. Открываем в браузере (http://localhost:8081)
 ---
-![Шаг 2](./photo/2.png)
+![Шаг 2]<img width="1680" height="928" alt="2" src="https://github.com/user-attachments/assets/48c8c1dc-5088-486a-8559-d90d21883cfb" />
+
 
 # 2 Знакомство с Docker 
 
